@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 19%, 24%);
+  padding: 50px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+}
+
+.title {
+  color: hsl(150, 100%, 66%);
+  font-size: 20px;
+  /* margin-top: 10px; */
+  position: absolute;
+  top: 350px;
+  margin-bottom: 200px;
+}
+
+.advice {
+  margin-top: 20px;
+  width: 300px;
+  font-size: 20px;
+  text-align: justify;
+  color: hsl(193, 38%, 86%);
+  text-align: center;
+}
+
+.link-top {
+  margin-top: 50px;
+  width: 300px;
+  height: 1px;
+  border-top: solid #a7a5a5 1px;
+  position: absolute;
+  top: 500px;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  position: absolute;
+  top: 540px;
+  color: white;
+}
+
+button {
+  --btn-color: hsl(150, 100%, 66%);
+  /* border: 0.25em solid var(--glow-color) */
+  padding: 20px;
+  color: var(--btn-color);
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border: none;
+  position: absolute;
+  transition: all 0.3s;
+  border-radius: 50%;
+  top: 580px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--btn-color);
+  background-color: var(--btn-color);
+  box-shadow: 0 0 1em 0.25em var(--btn-color), 0 0 4em 2em var(--btn-color),
+    inset 0 0 0.75em 0.25em var(--btn-color);
+}
+
+svg {
+  width: 20px;
+}
